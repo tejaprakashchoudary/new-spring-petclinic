@@ -4,9 +4,8 @@ on:
     branches:
       - main # or the name of your main branch
 jobs:
-  ...A BUNCH OF OTHER JOBS HERE THAT AREN'T RELEVANT
-  sonarqube:
-    name: SonarQube Scan
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Set up JDK 11
